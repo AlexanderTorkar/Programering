@@ -1,6 +1,19 @@
 Loggbok
 ============
 
+Mal
+-----------
+1. 5 st tarningar med random varde 1-6
+2. 
+
+
+24 03 07
+--------
+
+Gjorde:
+### Jag valde att gora ett yatzy spel som projekt och borjade gora listan
+
+
 24 02 08
 ---------
 
