@@ -4,7 +4,15 @@ Loggbok
 Mal
 -----------
 1. 5 st tarningar med random varde 1-6
-2. 
+2. Skriv ut meny med mojliga val
+3. Kasta om 3 ganger, spara det man vill 
+4. Ge totala poang 
+5. Flera spelare i ett spel
+
+
+24 03 14 
+--------
+Jag fortsatte med listan och borjade kopiera in kod
 
 
 24 03 07
