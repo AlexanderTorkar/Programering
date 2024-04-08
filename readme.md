@@ -9,6 +9,9 @@ Mal
 4. Ge totala poang 
 5. Flera spelare i ett spel
 
+24 04 08
+-------
+Idag skrev jag in valen man kan valja mellan pa yathze och fortsatte pa projektet 
 
 24 03 14 
 --------
