@@ -26,10 +26,8 @@ print("16 yatzy")
 print(tärningar)
 print("summa", sum(tärningar))
 
+# kasta om valda tärningar
 
+# kasta om valda tärningar en gång till
 
-# fungerar inte om vi vill ändra på värden i listan
-for tärning in tärningar:
-    tärning = 5 - tärning
-
-print(tärningar)
+# välj från menyn
