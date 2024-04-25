@@ -23,8 +23,14 @@ print("13 stor stege")
 print("15 chans")
 print("16 yatzy")
 
-print(tärningar)
-print("summa", sum(tärningar))
+def roll_dice():
+    print(tärningar)
+    svar = input("Vill du rulla täringar igen?")
+    if svar == "ja":
+        print(tärningar)
+
+
+
 
 # kasta om valda tärningar
 
