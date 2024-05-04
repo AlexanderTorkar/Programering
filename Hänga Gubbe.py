@@ -9,4 +9,8 @@ ord = random.choice(Sporter)
 
 omgångar = 6
 
-while omgångar > 6: 
+while omgångar > 0:
+    gissa = input("Gissa en bokstav")
+    if gissa not in ord:
+        print ("Fel")
+        omgångar -=1 
