@@ -3,11 +3,13 @@ Loggbok
 
 Mal
 -----------
-1. 5 st tarningar med random varde 1-6
-2. Skriv ut meny med mojliga val
-3. Kasta om 3 ganger, spara det man vill 
-4. Ge totala poang 
-5. Flera spelare i ett spel
+1. En ordlista med ordet
+2. Ge spelare 6 liv
+3. Låt spelaren gissa en bokstav
+4. Bestam om bokstaven finns i ordet
+5. Avsluta spelet nar alla liv är borta/nar spelare klarat av ordet
+6. Ta bort en omgang nar fel bokstav gissas
+7. Visa bokstaven i ordet nar ratt bokstav gissas
 
 24 04 25
 -------
