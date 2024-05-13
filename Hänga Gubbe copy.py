@@ -28,7 +28,7 @@ while omgångar > 0:
     # När man gissar fel bokstav
     if gissa not in ord:
         print ("Fel")
-        for bokstav in ord:
+        for gissa in ord:
             print('_ ', end='')
         omgångar = omgångar - 1
 # När man förlorar
