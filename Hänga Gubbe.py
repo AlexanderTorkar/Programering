@@ -17,19 +17,20 @@ print()
 omgångar = 6
 
 # Början av spelet
-while omgångar > 0:
+while omgångar > 0 and "_ " in hemligt_ord:
     gissa = input("Gissa en bokstav :")
     # När man gissar rätt bokstav
     if gissa in ord:
         print ("Rätt")
-        index = ord.index(gissa)
-        hemligt_ord[index] = (gissa)
+        for index, bokstav in enumerate(ord):
+            if bokstav == gissa:
+                hemligt_ord[index] = (gissa)
         print(hemligt_ord)
     # När man gissar fel bokstav
     if gissa not in ord:
-        print ("Fel")
         for bokstav in ord:
             print('_ ', end='')
+        print ("Fel")
         omgångar = omgångar - 1
 # När man förlorar
 if omgångar == 0:
