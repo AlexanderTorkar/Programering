@@ -11,6 +11,10 @@ Mal
 6. Ta bort en omgang nar fel bokstav gissas
 7. Visa bokstaven i ordet nar ratt bokstav gissas
 
+24 05 24
+-------
+### Jag har gjort flera andringar, bokstaverna syns battre nar man gissa fel, ordet ser bättre ut (inga"", efter alla bokstaver), om ett ord har samma bokstav flera ganger raknas nu bada, jag har lagt till sa man vet hur manga gissningar man har kvar och jag har fixat for nar man vinner samt beratta vilket ordet var nar man farlorade
+
 24 04 25
 -------
 ### Jag gjorde sa att jag kan rulla om tarningarna

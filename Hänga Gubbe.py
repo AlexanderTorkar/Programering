@@ -6,10 +6,9 @@ import random
 Sporter = ["fotboll", "golf", "basket", "handboll", "cricket", "rugby", "badminton", "bowling", "tennis", "boxning", "dart", "hockey", "squash", "volleyboll", "taekwondo"]
 
 ord = random.choice(Sporter)
-hemligt_ord = []
-for bokstav in ord:
-    hemligt_ord.append("_ ")
-print(hemligt_ord)
+hemligt_ord = ["_ "] * len(ord)
+
+print(" ".join(hemligt_ord))
 print()
 # print _ _ _ _ _
 
@@ -25,10 +24,10 @@ while omgångar > 0 and "_ " in hemligt_ord:
         for index, bokstav in enumerate(ord):
             if bokstav == gissa:
                 hemligt_ord[index] = (gissa)
-        print(hemligt_ord)
+        print(" ".join(hemligt_ord))
     # När man gissar fel bokstav
     if gissa not in ord:
-        print(hemligt_ord) 
+        print(" ".join(hemligt_ord)) 
         omgångar = omgångar - 1
         print (f"Fel, Du har {omgångar} gissningar kvar")
 
