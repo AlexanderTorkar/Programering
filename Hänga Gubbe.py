@@ -28,8 +28,7 @@ while omgångar > 0 and "_ " in hemligt_ord:
         print(hemligt_ord)
     # När man gissar fel bokstav
     if gissa not in ord:
-        for bokstav in ord:
-            print('_ ', end='')
+        print(hemligt_ord) 
         omgångar = omgångar - 1
         print (f"Fel, Du har {omgångar} gissningar kvar")
 
