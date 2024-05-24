@@ -34,4 +34,6 @@ while omgångar > 0 and "_ " in hemligt_ord:
         omgångar = omgångar - 1
 # När man förlorar
 if omgångar == 0:
-    print("Du förlora")
+    print(f"Du förlora. Ordet va '{ord}'")
+else:
+    print("Korrekt! Du vann!")
